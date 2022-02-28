@@ -1,0 +1,199 @@
+{
+  "employees": [
+    {
+      "id": "1-kRnoS",
+      "firstName": "Quốc",
+      "lastName": "Huỳnh",
+      "birthday": "2021-05-26T08:58:11.366Z",
+      "email": "viet123456@gmail.com",
+      "phoneNumber": "0338948317",
+      "gender": 2,
+      "status": false,
+      "province": 20,
+      "district": 185,
+      "userName": "0338948317",
+      "password": "f5Vbg01XXA",
+      "createdAt": 1622019556818
+    },
+    {
+      "id": "XhvnyXg",
+      "firstName": "Việt",
+      "lastName": "Huỳnh",
+      "birthday": "2021-05-26T08:43:19.801Z",
+      "email": "viet123456@gmail.com",
+      "phoneNumber": "0338948317",
+      "status": false,
+      "gender": 0,
+      "province": 15,
+      "district": 138,
+      "userName": "0338948317",
+      "password": "bsmRRgvVIt",
+      "createdAt": 1622018622445
+    },
+    {
+      "id": "LoZuOv6",
+      "firstName": "Quân",
+      "lastName": "Trần",
+      "birthday": "2021-05-26T08:58:11.366Z",
+      "email": "viet123456@gmail.com",
+      "phoneNumber": "0338948317",
+      "status": false,
+      "gender": 2,
+      "province": 20,
+      "district": 185,
+      "userName": "0338948317",
+      "password": "f5Vbg01XXA",
+      "createdAt": 1622019556818
+    },
+    {
+      "id": "F3YBIsP",
+      "firstName": "Nhi",
+      "lastName": "Lê",
+      "birthday": "2021-05-26T16:58:08.457Z",
+      "email": "abc1234@gmail.com",
+      "phoneNumber": "0323456789",
+      "status": false,
+      "gender": 1,
+      "province": 26,
+      "district": 248,
+      "userName": "0323456789",
+      "password": "f9tS5GeboK",
+      "createdAt": 1622048330982
+    },
+    {
+      "id": "BqImfSu",
+      "firstName": "Nhi",
+      "lastName": "Lê",
+      "birthday": "2021-05-26T16:58:08.457Z",
+      "email": "abc1234@gmail.com",
+      "phoneNumber": "0323456789",
+      "status": false,
+      "gender": 1,
+      "province": 26,
+      "district": 248,
+      "userName": "0323456789",
+      "password": "f9tS5GeboK",
+      "createdAt": 1622048330982
+    },
+    {
+      "firstName": "Lan",
+      "lastName": "Bùi",
+      "birthday": "2021-05-26T16:59:36.326Z",
+      "email": "admin@gmail.com",
+      "phoneNumber": "0312345678",
+      "status": false,
+      "gender": 1,
+      "province": 14,
+      "district": 124,
+      "userName": "0312345678",
+      "password": "f9tS5GeboK",
+      "createdAt": 1622048427165,
+      "id": "jGcA3JX"
+    },
+    {
+      "firstName": "Thảo",
+      "lastName": "Nguyễn",
+      "birthday": "2021-05-26T17:02:30.455Z",
+      "email": "acccz@gmail.com",
+      "phoneNumber": "0311111111",
+      "status": false,
+      "gender": 1,
+      "province": 20,
+      "district": 183,
+      "userName": "0311111111",
+      "password": "f9tS5GeboK",
+      "createdAt": 1622048597595,
+      "id": "aygcIbc"
+    }
+  ],
+  "agenda": [
+    {
+      "id": "1",
+      "createdAt": "05/20/2021",
+      "fullName": "Ms. Preston Cremin",
+      "status": true,
+      "reason": "reason 1",
+      "daysOff": 19867
+    },
+    {
+      "id": "2",
+      "createdAt": "05/18/2021",
+      "fullName": "Ernestine Fahey",
+      "status": false,
+      "reason": "reason 2",
+      "daysOff": 34317
+    },
+    {
+      "id": "3",
+      "createdAt": "05/20/2021",
+      "fullName": "Irvin Kertzmann IV",
+      "status": false,
+      "reason": "reason 3",
+      "daysOff": 31115
+    },
+    {
+      "id": "4",
+      "createdAt": "05/16/2021",
+      "fullName": "Warren Connelly",
+      "status": true,
+      "reason": "reason 4",
+      "daysOff": 69282
+    },
+    {
+      "id": "5",
+      "createdAt": "05/17/2021",
+      "fullName": "Erick Stehr",
+      "status": true,
+      "reason": "reason 5",
+      "daysOff": 96185
+    },
+    {
+      "id": "6",
+      "createdAt": "05/15/2021",
+      "fullName": "Dawn Kling",
+      "status": true,
+      "reason": "reason 6",
+      "daysOff": 18191
+    },
+    {
+      "id": "7",
+      "createdAt": "05/17/2021",
+      "fullName": "Winston Osinski",
+      "status": true,
+      "reason": "reason 7",
+      "daysOff": 39104
+    },
+    {
+      "id": "8",
+      "createdAt": "05/18/2021",
+      "fullName": "Lucille Mohr",
+      "status": true,
+      "reason": "reason 8",
+      "daysOff": 62777
+    },
+    {
+      "id": "9",
+      "createdAt": "05/19/2021",
+      "fullName": "Ginger Murphy Jr.",
+      "status": true,
+      "reason": "reason 9",
+      "daysOff": 28775
+    },
+    {
+      "id": "10",
+      "createdAt": "05/19/2021",
+      "fullName": "Victoria Kerluke",
+      "status": true,
+      "reason": "reason 10",
+      "daysOff": 75438
+    },
+    {
+      "id": "11",
+      "createdAt": "05/17/2021",
+      "fullName": "Toby Beahan",
+      "status": true,
+      "reason": "reason 11",
+      "daysOff": 72582
+    }
+  ]
+}

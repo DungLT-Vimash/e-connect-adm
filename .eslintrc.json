@@ -1,0 +1,118 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".ts",
+          ".tsx"
+        ]
+      }
+    }
+  },
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "prettier/react",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "overrides": [
+    {
+      "extends": "plugin:jest/all",
+      "files": [
+        "src"
+      ]
+    }
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "jest",
+    "react",
+    "unused-imports",
+    "import",
+    "react-hooks",
+    "prettier"
+  ],
+  "root": true,
+  "ignorePatterns": [
+    "*.js",
+    "node_modules"
+  ],
+  "rules": {
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "parent",
+          "sibling",
+          "index"
+        ]
+      }
+    ],
+    "import/no-unresolved": "off",
+    "@typescript-eslint/explicit-function-return-type": "off", // TODO: Create maintenance ticket and fix
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-explicit-any": "off", // TODO: Create maintenance ticket and fix
+    "@typescript-eslint/no-inferrable-types": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "off",
+      {
+        "args": "none"
+      }
+    ], // TODO: Create maintenance ticket and fix
+    "react/display-name": "off",
+    "react/no-find-dom-node": "off",
+    "react/no-unescaped-entities": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off",
+    "no-underscore-dangle": "off",
+    "no-use-before-define": "error",
+    "import/extensions": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-nested-ternary": "off",
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ],
+    "unused-imports/no-unused-imports-ts": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "import/prefer-default-export": "off",
+    "unused-imports/no-unused-vars-ts": [
+      "off",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}
